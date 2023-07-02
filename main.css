@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(231, 227, 227);
+    
+}
+
+.navBar {
+    background-color: black;
+    color: white;
+    position: sticky;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.navBar div img{
+    position: absolute;
+}
+
+.navBar div h1{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.navBar ul{
+    position: relative;
+    margin-left: 150px;
+    list-style: none;
+    top: 15px;
+}
+
+.navBar ul li{
+    display: inline;
+    margin-left: 50px;
+    
+}
+
+.navBar ul li:hover{
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgb(255, 255, 255);
+    
+}
+
+
+.navBar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.brandName{
+    color: #00CCFF;
+}
+
+.mainContent {
+    margin: 40px;
+    border: 1px solid #00CCFF;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+.mainContent h1{
+    padding: 5px;
+
+}
+.mainContent ol {
+    padding: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
